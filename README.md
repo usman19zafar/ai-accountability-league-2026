@@ -24,6 +24,18 @@ This is the Governance-Alignment Gap.
 | Gemini Flash | 26/100  | 0.8405   | NO , Yes   |
 | Grok         | 28/100  | 0.8413   | NO , Yes   |
 
+In March 2026, five frontier AI models — ChatGPT‑4o, Claude Sonnet 4.6, Copilot, Gemini Flash, and Grok — were put through the same controlled, free‑tier challenge and evaluated using two independent engines: TRUE‑10, a deterministic information‑integrity framework, and ALIGN100, a seven‑stage alignment pipeline. The results were striking: every model showed strong structural alignment, yet every model failed governance compliance, revealing a consistent, cross‑vendor weakness in evidentiary and oversight structures. This paper defines that systemic pattern as the Governance‑Alignment Gap — the measurable distance between how well AI models reason and how poorly they satisfy governance‑grade requirements. This benchmark is not a leaderboard; it is the first real stress test of frontier AI under governance pressure, redefining what “AI readiness” means in 2026.
+
+## Can TRUE-10 Actually Score High?
+Yes. The gold standard reference document 
+demonstrates TRUE-10 is capable of 90+ scores 
+when governance requirements are met.
+
+![https://github.com/usman19zafar/AI-Accountability-League-2026/blob/main/Gold-Evidence/True10-Gold1.jpg, https://github.com/usman19zafar/AI-Accountability-League-2026/blob/main/Gold-Evidence/True10-Gold2.jpg]
+
+> Full gold standard document available to 
+> verified researchers upon request.
+> Contact: [your email]
 ## Cite this work
 Zafar, U. (2026). Governed or Blind: The Integrity Gap in 
 Frontier AI. Zenodo. https://doi.org/10.5281/zenodo.19075200
