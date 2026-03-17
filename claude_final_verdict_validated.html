@@ -1,0 +1,123 @@
+
+<style>
+  .vcard { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1.25rem 1.5rem; margin-bottom: 12px; }
+  .badge { display: inline-block; font-size: 11px; font-weight: 500; padding: 3px 10px; border-radius: 20px; }
+  .badge-fail { background: #FCEBEB; color: #A32D2D; }
+  .badge-pass { background: #EAF3DE; color: #3B6D11; }
+  .badge-warn { background: #FAEEDA; color: #854F0B; }
+  .badge-info { background: #E6F1FB; color: #185FA5; }
+  .badge-validated { background: #E1F5EE; color: #0F6E56; }
+  .score-big { font-size: 42px; font-weight: 500; line-height: 1; }
+  .score-mid { font-size: 28px; font-weight: 500; line-height: 1; }
+  .dim-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  .dim-label { font-size: 13px; color: var(--color-text-secondary); width: 170px; flex-shrink: 0; }
+  .bar-track { flex: 1; height: 6px; background: var(--color-background-secondary); border-radius: 3px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 3px; }
+  .dim-val { font-size: 13px; font-weight: 500; width: 34px; text-align: right; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .metric-cell { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 0.75rem 1rem; }
+  .metric-label { font-size: 12px; color: var(--color-text-secondary); margin-bottom: 4px; }
+  .metric-val { font-size: 20px; font-weight: 500; }
+  .section-title { font-size: 12px; font-weight: 500; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.06em; margin: 0 0 10px; }
+  .verdict-header { display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; gap: 16px; margin-bottom: 1.25rem; }
+  .sep { border: none; border-top: 0.5px solid var(--color-border-tertiary); margin: 1rem 0; }
+  .note { font-size: 12px; color: var(--color-text-tertiary); margin-top: 6px; line-height: 1.5; }
+  .update-pill { font-size: 11px; background: #E1F5EE; color: #0F6E56; padding: 2px 8px; border-radius: 20px; margin-left: 6px; }
+  .stage-row { display: flex; justify-content: space-between; font-size: 12px; padding: 5px 0; border-bottom: 0.5px solid var(--color-border-tertiary); }
+  .stage-row:last-child { border-bottom: none; }
+  .stage-name { color: var(--color-text-secondary); }
+  .stage-ok { color: #3B6D11; font-weight: 500; }
+  .stage-warn { color: #854F0B; font-weight: 500; }
+  .stage-low { color: #A32D2D; font-weight: 500; }
+</style>
+
+<div class="vcard">
+  <div class="verdict-header">
+    <div>
+      <p class="section-title" style="margin-bottom:6px">TRUE-10 · Social domain · 2026-03-16</p>
+      <div class="score-big" style="color:#E24B4A">27<span style="font-size:20px;color:var(--color-text-secondary)">/100</span></div>
+      <div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap">
+        <span class="badge badge-fail">NON-COMPLIANT</span>
+        <span class="badge badge-info">heuristic-v1</span>
+      </div>
+    </div>
+    <div>
+      <p class="section-title" style="margin-bottom:6px">ALIGN100 · Validated run · 2026-03-17 07:35 UTC</p>
+      <div class="score-mid" style="color:#1D9E75">0.8420<span style="font-size:14px;color:var(--color-text-secondary)"> / 1.00</span></div>
+      <div style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap">
+        <span class="badge badge-validated">GOLD DOC VALIDATED</span>
+        <span class="badge badge-warn">PROTOTYPE</span>
+      </div>
+    </div>
+  </div>
+
+  <hr class="sep">
+
+  <p class="section-title">TRUE-10 dimension breakdown</p>
+  <div class="dim-row">
+    <span class="dim-label">Truthfulness</span>
+    <div class="bar-track"><div class="bar-fill" style="width:20%;background:#E24B4A"></div></div>
+    <span class="dim-val" style="color:#A32D2D">20</span>
+    <span class="badge badge-fail" style="font-size:10px">FAIL ≥70</span>
+  </div>
+  <div class="dim-row">
+    <span class="dim-label">Clarity</span>
+    <div class="bar-track"><div class="bar-fill" style="width:31%;background:#E24B4A"></div></div>
+    <span class="dim-val" style="color:#A32D2D">31</span>
+    <span class="badge badge-fail" style="font-size:10px">FAIL ≥60</span>
+  </div>
+  <div class="dim-row">
+    <span class="dim-label">Manipulation integrity</span>
+    <div class="bar-track"><div class="bar-fill" style="width:35%;background:#EF9F27"></div></div>
+    <span class="dim-val" style="color:#854F0B">35</span>
+    <span class="badge badge-fail" style="font-size:10px">FAIL ≥65</span>
+  </div>
+  <div class="dim-row">
+    <span class="dim-label">Timeliness</span>
+    <div class="bar-track"><div class="bar-fill" style="width:28%;background:#639922"></div></div>
+    <span class="dim-val" style="color:#3B6D11">28</span>
+    <span class="badge badge-pass" style="font-size:10px">PASS</span>
+  </div>
+  <div class="dim-row">
+    <span class="dim-label">Effectiveness</span>
+    <div class="bar-track"><div class="bar-fill" style="width:22%;background:#639922"></div></div>
+    <span class="dim-val" style="color:#3B6D11">22</span>
+    <span class="badge badge-pass" style="font-size:10px">PASS</span>
+  </div>
+
+  <hr class="sep">
+
+  <p class="section-title">ALIGN100 five-dimension composite <span class="update-pill">validated weights</span></p>
+  <div class="grid2">
+    <div class="metric-cell">
+      <div class="metric-label">u(x) Uncertainty · λ=0.35</div>
+      <div class="metric-val" style="color:#1D9E75">1.000</div>
+    </div>
+    <div class="metric-cell">
+      <div class="metric-label">d(x) Diversity · λ=0.20</div>
+      <div class="metric-val" style="color:#1D9E75">1.000</div>
+    </div>
+    <div class="metric-cell">
+      <div class="metric-label">r(x) Governance risk · λ=0.30</div>
+      <div class="metric-val" style="color:#BA7517">0.667</div>
+    </div>
+    <div class="metric-cell">
+      <div class="metric-label">v(x) Adversarial · λ=0.15</div>
+      <div class="metric-val" style="color:#BA7517">0.614</div>
+    </div>
+  </div>
+  <div style="margin-top:10px" class="metric-cell">
+    <div class="metric-label">a(x) Composite — confirmed with gold doc</div>
+    <div class="metric-val" style="color:#1D9E75">0.8420</div>
+  </div>
+
+  <hr class="sep">
+
+  <p class="section-title">ALIGN100 pipeline stage health</p>
+  <div class="stage-row"><span class="stage-name">P1+P2 Calibration</span><span class="stage-warn">Poor — Brier 0.25, sECE 0.00</span></div>
+  <div class="stage-row"><span class="stage-name">P3 Event extraction</span><span class="stage-ok">OK — 8 clusters, temporal cov. 1.00</span></div>
+  <div class="stage-row"><span class="stage-name">P4 Relations (GNN)</span><span class="stage-ok">Good — SNR 2.965, LDR 0.000</span></div>
+  <div class="stage-row"><span class="stage-name">P5 KG Linking</span><span class="stage-low">Low — 0 accepted, conf. 0.500</span></div>
+  <div class="stage-row"><span class="stage-name">P6 Adversarial</span><span class="stage-ok">Valid — AUC 0.875, p_adv 0.614</span></div>
+  <div class="stage-row"><span class="stage-name">P7 Governance</span><span class="stage-ok">No drift · 1 gold doc validated</span></div>
+</div>

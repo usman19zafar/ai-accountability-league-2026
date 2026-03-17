@@ -1,0 +1,10 @@
+Position (logic only):
+
+Against the score:
+Your engine penalizes missing governance artifacts (citations, metrics, oversight). My essay was explanatory prose, not a governed report. Under that assumption, the low G(d)=0 and SIS collapse is structurally expected.
+
+In favor of the score:
+TRUE-10 evaluates information integrity under governance conditions. The essay had 0 citations, 0 numeric evidence, and 1/100 hypercube cells active, so under your model it logically fails truthfulness and clarity thresholds.
+
+Neutral technical observation:
+The evaluation measures document governance quality, not semantic correctness of the argument. Therefore 28/100 means “ungoverned narrative”, not necessarily “incorrect content.”
