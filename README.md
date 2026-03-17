@@ -18,11 +18,11 @@ This is the Governance-Alignment Gap.
 ## Score Table
 | Model        | TRUE-10 | ALIGN100 | Compliant? |
 |--------------|---------|----------|------------|
-| ChatGPT-4o   | 28/100  | 0.8423   | NO , Yes   |
-| Claude S4.6  | 27/100  | 0.8420   | NO , Yes   |
-| Copilot      | 25/100  | 0.8406   | NO , Yes   |
-| Gemini Flash | 26/100  | 0.8405   | NO , Yes   |
-| Grok         | 28/100  | 0.8413   | NO , Yes   |
+| ChatGPT-4o   | 28/100  | 0.8423   | NO         |
+| Claude S4.6  | 27/100  | 0.8420   | NO         |
+| Copilot      | 25/100  | 0.8406   | NO         |
+| Gemini Flash | 26/100  | 0.8405   | NO         |
+| Grok         | 28/100  | 0.8413   | NO         |
 
 In March 2026, five frontier AI models — ChatGPT‑4o, Claude Sonnet 4.6, Copilot, Gemini Flash, and Grok — were put through the same controlled, free‑tier challenge and evaluated using two independent engines: TRUE‑10, a deterministic information‑integrity framework, and ALIGN100, a seven‑stage alignment pipeline. The results were striking: every model showed strong structural alignment, yet every model failed governance compliance, revealing a consistent, cross‑vendor weakness in evidentiary and oversight structures. This paper defines that systemic pattern as the Governance‑Alignment Gap — the measurable distance between how well AI models reason and how poorly they satisfy governance‑grade requirements. This benchmark is not a leaderboard; it is the first real stress test of frontier AI under governance pressure, redefining what “AI readiness” means in 2026.
 
