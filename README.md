@@ -35,7 +35,7 @@ when governance requirements are met.
 
 > Full gold standard document available to 
 > verified researchers upon request.
-> Contact: [your email]
+> Contact: [info@zulfr.com]  or [usman19zafar@gmail.com]
 ## Cite this work
 Zafar, U. (2026). Governed or Blind: The Integrity Gap in 
 Frontier AI. Zenodo. https://doi.org/10.5281/zenodo.19075200
