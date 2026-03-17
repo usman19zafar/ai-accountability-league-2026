@@ -43,4 +43,5 @@ when governance requirements are met.
 ## Cite this work
 Zafar, U. (2026). Governed or Blind: The Integrity Gap in 
 Frontier AI. Zenodo. https://doi.org/10.5281/zenodo.19075200
+
 Announced @ Coderlegion: https://coderlegion.com/13102/bench-marked-5-frontier-ai-models-on-governance-alignment-every-single-one-failed
