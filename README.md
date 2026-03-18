@@ -162,9 +162,9 @@ researchers:
 
 info@zulfr.com
 
-![https://github.com/usman19zafar/AI-Accountability-League-2026/blob/main/Gold-Evidence/True10-Gold1.jpg, 
+[https://github.com/usman19zafar/AI-Accountability-League-2026/blob/main/Gold-Evidence/True10-Gold1.jpg], 
 
-https://github.com/usman19zafar/AI-Accountability-League-2026/blob/main/Gold-Evidence/True10-Gold2.jpg]
+[https://github.com/usman19zafar/AI-Accountability-League-2026/blob/main/Gold-Evidence/True10-Gold2.jpg]
 
 > Full gold standard document available to 
 > verified researchers upon request.
