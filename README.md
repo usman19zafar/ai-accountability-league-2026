@@ -50,7 +50,7 @@ Built with 2044 in mind — not for today's
 models, but for AI systems we haven't 
 built yet.
 
-![TRUE-10 Ultimate Governance Reactor Hypercube](evidence/true10_hypercube.png)
+[![TRUE-10 Ultimate Governance Reactor Hypercube](evidence/true10_hypercube.png)](https://github.com/usman19zafar/AI-Accountability-League-2026/blob/main/Gold-Evidence/True10_HyperCube.png)
 
 ### The Architecture
 - 10-layer deterministic processing
@@ -71,7 +71,7 @@ TRUE-10 Index = 100 × (wt×t + wc×c + wm×m + wT×t + we×e)
 
 ## Why No LLM Can Surpass TRUE-10
 
-![TRUE-10 Governance Engine vs Large Language Models](evidence/true10_vs_llms.png)
+[![TRUE-10 Governance Engine vs Large Language Models](evidence/true10_vs_llms.png)](https://github.com/usman19zafar/AI-Accountability-League-2026/blob/main/Gold-Evidence/True10%20vs%20LLM.png)
 
 | TRUE-10 Governance Engine | Large Language Models |
 |---|---|
