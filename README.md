@@ -116,7 +116,7 @@ here is the answer.
 
 TRUE-10 is not competing with these models. It governs them.
 
-![TRUE-10 Ultimate Governance Reactor Hypercube]
+[TRUE-10 Ultimate Governance Reactor Hypercube]
 (attach Image 1 directly in evidence section)
 
 TRUE-10 operates on a fundamentally different 
@@ -135,7 +135,7 @@ TRUE-10 evaluates output through:
 
 ## These are not the same thing. One produces text. The other governs whether that text meets an evidentiary standard.
 
-![TRUE-10 vs LLMs]
+[TRUE-10 (Terminator) vs LLMs(Transformers)]
 (attach Image 2 directly in CoderLegion editor)
 
 The three failures that every LLM shares:
