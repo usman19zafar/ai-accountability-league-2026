@@ -158,12 +158,18 @@ the ceiling is real and reachable.
 The models just aren't there yet.
 
 Full gold standard available to verified 
-researchers: info@zulfr.com
-![https://github.com/usman19zafar/AI-Accountability-League-2026/blob/main/Gold-Evidence/True10-Gold1.jpg, https://github.com/usman19zafar/AI-Accountability-League-2026/blob/main/Gold-Evidence/True10-Gold2.jpg]
+researchers: 
+
+info@zulfr.com
+
+![https://github.com/usman19zafar/AI-Accountability-League-2026/blob/main/Gold-Evidence/True10-Gold1.jpg, 
+
+https://github.com/usman19zafar/AI-Accountability-League-2026/blob/main/Gold-Evidence/True10-Gold2.jpg]
 
 > Full gold standard document available to 
 > verified researchers upon request.
 > Contact: [info@zulfr.com]  or [usman19zafar@gmail.com]
+
 ## Cite this work
 Zafar, U. (2026). Governed or Blind: The Integrity Gap in 
 Frontier AI. Zenodo. https://doi.org/10.5281/zenodo.19075200
